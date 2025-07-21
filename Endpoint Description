@@ -1,0 +1,54 @@
+Endpoint Description
+This endpoint retrieves student information from the server. It is designed to provide detailed personal, contact, academic, and extracurricular data for a specific student.
+Request Format
+•	Method: GET, PUT, POST, DELETE
+•	URL: http://localhost:3000/Student
+•	Request Body: The request expects a JSON payload containing the following structure:
+JSON
+{
+  "personalInfo": {
+    "firstName": "string",
+    "lastName": "string",
+    "dateOfBirth": "string (YYYY-MM-DD)",
+    "gender": "string",
+    "bloodGroup": "string"
+  },
+  "contact": {
+    "email": "string",
+    "phone": "string",
+    "address": {
+      "street": "string",
+      "city": "string",
+      "state": "string",
+      "zipCode": "string",
+      "country": "string"
+    }
+  },
+  "academic": {
+    "studentId": "string",
+    "department": "string",
+    "program": "string",
+    "currentSemester": "integer",
+    "enrollmentDate": "string (YYYY-MM-DD)",
+    "expectedGraduation": "string (YYYY-MM-DD)",
+    "gpa": "number",
+    "status": "string"
+  },
+  "courses": [
+    {
+      "code": "string",
+      "title": "string",
+      "credits": "integer",
+      "grade": "string",
+      "semester": "string"
+    }
+  ],
+  "extracurriculars": ["string"]
+}
+Response Structure
+•	Status Code: 200
+•	Content-Type: text/xml
+•	Response Body: The response will be in XML format, although the specific content structure is not provided in the current documentation.
+Notes
+Ensure that the request body follows the specified format to avoid errors. The response will confirm the successful retrieval of the student information.
+
