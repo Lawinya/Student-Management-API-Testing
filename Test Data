@@ -1,0 +1,154 @@
+{
+  "students": [
+    {
+      "id": "1001",
+      "personalInfo": {
+        "firstName": "Alex",
+        "lastName": "Johnson",
+        "dateOfBirth": "2005-03-15",
+        "gender": "Male",
+        "bloodGroup": "A+"
+      },
+      "contact": {
+        "email": "alex.johnson@university.edu",
+        "phone": "+1 (555) 123-4567",
+        "address": {
+          "street": "123 College Ave",
+          "city": "Boston",
+          "state": "MA",
+          "zipCode": "02115",
+          "country": "USA"
+        }
+      },
+      "academic": {
+        "studentId": "STU2023001",
+        "department": "Computer Science",
+        "program": "B.Sc. Computer Science",
+        "currentSemester": 3,
+        "enrollmentDate": "2022-09-01",
+        "expectedGraduation": "2026-06-30",
+        "gpa": 3.78,
+        "status": "Active"
+      },
+      "courses": [
+        {
+          "code": "CS101",
+          "title": "Introduction to Programming",
+          "credits": 4,
+          "grade": "A",
+          "semester": "Fall 2022"
+        },
+        {
+          "code": "MATH201",
+          "title": "Discrete Mathematics",
+          "credits": 3,
+          "grade": "B+",
+          "semester": "Fall 2022"
+        },
+        {
+          "code": "CS202",
+          "title": "Data Structures",
+          "credits": 4,
+          "grade": "A-",
+          "semester": "Spring 2023"
+        }
+      ],
+      "extracurriculars": [
+        "Computer Science Club",
+        "Swimming Team"
+      ]
+    },
+    {
+      "id": "1002",
+      "personalInfo": {
+        "firstName": "Sarah",
+        "lastName": "Williams",
+        "dateOfBirth": "2004-07-22",
+        "gender": "Female",
+        "bloodGroup": "O+"
+      },
+      "contact": {
+        "email": "sarah.williams@university.edu",
+        "phone": "+1 (555) 987-6543",
+        "address": {
+          "street": "456 University Blvd",
+          "city": "Boston",
+          "state": "MA",
+          "zipCode": "02116",
+          "country": "USA"
+        }
+      },
+      "academic": {
+        "studentId": "STU2023002",
+        "department": "Biology",
+        "program": "B.Sc. Biology",
+        "currentSemester": 4,
+        "enrollmentDate": "2022-09-01",
+        "expectedGraduation": "2026-06-30",
+        "gpa": 3.92,
+        "status": "Active"
+      },
+      "courses": [
+        {
+          "code": "BIO101",
+          "title": "Introduction to Biology",
+          "credits": 4,
+          "grade": "A",
+          "semester": "Fall 2022"
+        },
+        {
+          "code": "CHEM201",
+          "title": "Organic Chemistry",
+          "credits": 4,
+          "grade": "A-",
+          "semester": "Spring 2023"
+        },
+        {
+          "code": "STAT202",
+          "title": "Biostatistics",
+          "credits": 3,
+          "grade": "A",
+          "semester": "Spring 2023"
+        }
+      ],
+      "extracurriculars": [
+        "Biology Research Club",
+        "Volunteer at City Hospital"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "code": "CS",
+      "name": "Computer Science",
+      "head": "Dr. Robert Chen",
+      "location": "Engineering Building, Room 301",
+      "id": "965f"
+    },
+    {
+      "code": "BIO",
+      "name": "Biology",
+      "head": "Dr. Emily Parker",
+      "location": "Science Building, Room 205",
+      "id": "79c5"
+    }
+  ],
+  "courses": [
+    {
+      "code": "CS101",
+      "title": "Introduction to Programming",
+      "credits": 4,
+      "department": "CS",
+      "prerequisites": [],
+      "id": "0340"
+    },
+    {
+      "code": "BIO101",
+      "title": "Introduction to Biology",
+      "credits": 4,
+      "department": "BIO",
+      "prerequisites": [],
+      "id": "d68b"
+    }
+  ]
+}
