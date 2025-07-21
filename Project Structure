@@ -1,0 +1,12 @@
+.
+├── collections/                  # Postman collection exports
+│   └── Student-API.postman_collection.json
+├── environments/                 # Environment variables
+│   └── student-api.postman_environment.json
+├── test-data/                    # Mock data
+│   ├── students.json             # Seed data
+│   └── mock-responses/           # Example API responses
+├── reports/                      # Test reports (auto-generated)
+├── scripts/                      # Helper scripts
+│   └── seed-db.js                # Database initialization
+└── README.md                     # This documentation
